@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+body {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Teko;
+    background-color:rgb(241, 241, 241);
+    color:black;
+    vertical-align: middle;
+}
+
+.content  {
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
+}
+
+i {
+    font-size: 7em;
+    
+}
+
+.grid-container {
+    display: grid;
+    padding-top: 3em;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.flex-container {
+    display:flex;
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 200px;
+    cursor:pointer;
+    filter: saturate(200%);
+ 
+}
+
+img:hover {
+    box-shadow: 0 0 10px black;
+    border-radius: 100%;
+}
+
+#rock {
+    filter:hue-rotate(240deg);
+}
+
+#paper {
+    filter:hue-rotate(100deg);
+}
+
+#scissors {
+    filter:hue-rotate(160deg);
+}
+
+#lizard {
+    filter:hue-rotate(300deg);
+}
+
+#spock {
+    filter:hue-rotate(30deg);
+}
+
+h3 {
+    font-size: 3vw;
+    color: #4296CF
+}
+
+h4 {
+    padding: 5vh;
+    font-size: 5vw;
+}
+
+button {
+    background-color:#EB6A90;
+    color: white;
+    font-family: Teko;
+    font-size: 18px;
+    border: 0;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+
+}
